@@ -151,7 +151,7 @@ sending signed transaction...
 然后我们可以执行查询合约绑定的 Aspect 的脚本，检查合约是否绑定成功。
 
 ```bash
-$ node scripts/query.cjs --contract <CONTRACT_ADDRESS>
+$ node scripts/get-bound-aspect.cjs --contract <CONTRACT_ADDRESS>
 bound aspects : 0x9AE212EFbc8935D95DD266947cDb231571c1A09e,1,1
 ```
 
